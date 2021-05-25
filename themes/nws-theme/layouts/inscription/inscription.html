@@ -31,7 +31,7 @@
                   <div class="input-icon mb-3 position-relative w-lg-{{ .width }} {{ .padding }} d-lg-inline-block">
                     <img src="{{.icon}}" alt="" class="icn-contact" />
                     <input
-                     {{ range where  := .Site.Data.{{ .Params.filiere }}.page_list }}
+                     {{ range where .Site.Data.{{ .Params.filiere }}.page_list }}
                       {{ $nws }} 
                       {{ end }}
                       type="{{.type}}"
