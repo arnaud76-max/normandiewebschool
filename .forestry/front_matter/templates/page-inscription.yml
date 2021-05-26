@@ -98,6 +98,8 @@ fields:
           file: 
           path: 
       label: list
+      showOnly:
+        field: list
   - type: field_group_list
     name: checkbox
     label: checkbox
